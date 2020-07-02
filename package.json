@@ -1,0 +1,27 @@
+{
+  "name": "@oliverreese/my-private-dependency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverreese/my-private-dependency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverreese/my-private-dependency/issues"
+  },
+  "homepage": "https://github.com/oliverreese/my-private-dependency#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0"
+  }
+}
